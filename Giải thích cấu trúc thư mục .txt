@@ -1,0 +1,16 @@
+android/ và ios/: Đây là thư mục dành cho các dự án sử dụng React Native hoặc Flutter. Nó chứa mã nguồn đặc biệt cho Android và iOS.
+
+assets/: Thư mục này chứa các tài nguyên như hình ảnh, fonts, icons, ... mà ứng dụng của bạn sử dụng.
+
+src/: Đây là thư mục chứa toàn bộ mã nguồn của ứng dụng.
+
+components/: Chứa các thành phần giao diện tái sử dụng như button, card, input, ...
+screens/: Các màn hình của ứng dụng, mỗi màn hình nên có thư mục riêng.
+services/: Các dịch vụ, logic xử lý nghiệp vụ như quản lý thẻ, giao tiếp với API, ...
+navigation/: Cấu hình điều hướng và định tuyến của ứng dụng, ví dụ sử dụng React Navigation.
+utils/: Các hàm tiện ích, helper functions cho toàn bộ ứng dụng.
+tests/: Thư mục này chứa các file và thư mục liên quan đến việc kiểm thử ứng dụng.
+
+node_modules/: Thư mục chứa các module và package từ npm, không nên đưa vào Git (được định nghĩa trong .gitignore).
+
+README.md: Tài liệu về dự án, bao gồm hướng dẫn cài đặt, hướng dẫn sử dụng, các yêu cầu hệ thống và thông tin khác liên quan đến dự án.
